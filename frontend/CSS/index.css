@@ -1,0 +1,23 @@
+body {
+    background-color: #0f4f8f;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.card {
+    text-align: center;
+}
+
+
+.carousel-caption h5 {
+    color: #6933ff; /* Cambia el color del título del carrusel */
+    font-size: 24px; /* Ajusta el tamaño de la letra para el título */
+}
+
+.carousel-caption p {
+    color: #808080; /* Cambia el color de la descripción del carrusel */
+    font-size: 18px; /* Ajusta el tamaño de la letra para la descripción */
+}
+
