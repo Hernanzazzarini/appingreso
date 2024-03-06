@@ -140,7 +140,7 @@ if __name__ == "__main__":
         conexion = create_db_connection()
 
         if conexion:
-            print("Conexión a la base de datos exitosa")
+            #print("Conexión a la base de datos exitosa")
             menu(conexion)
 
     except Exception as e:
