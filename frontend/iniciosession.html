@@ -20,16 +20,19 @@
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-header">
+                    <div class="card-header d-flex justify-content-between align-items-center">
                         <h4 class="mb-0">Inicio de Session</h4>
+                        <box-icon name='male-female'></box-icon>
                     </div>
                     <div class="card-body">
                         <form id="loginForm">
                             <div class="form-group">
+                                <box-icon type='solid' name='user-check'></box-icon>
                                 <label for="username">Nombre :</label>
                                 <input type="text" class="form-control" id="username" name="username" required>
                             </div>
                             <div class="form-group">
+                                <box-icon name='lock'></box-icon>
                                 <label for="password">Dni:</label>
                                 <input type="password" class="form-control" id="password" name="password" required>
                             </div>
@@ -40,6 +43,10 @@
             </div>
         </div>
     </div>
+     <!-- footer -->    
+     <footer class="bg-dark text-light text-center py-3">
+        <p>&copy; zazzarinih design. Todos los derechos reservados.</p>
+    </footer>
 
 
 
@@ -48,6 +55,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src=""></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    
 </body>
 </html>

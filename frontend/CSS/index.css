@@ -48,6 +48,23 @@ footer {
     font-size: 18px; /* Ajusta el tamaño según sea necesario */
 }
 
+.rotate-card:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card {
+    margin: 10px; /* Ajusta el margen según sea necesario */
+  }
+  
+  .card-body {
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+ /* Agrega reglas de estilo personalizadas aquí */
+ .small-text {
+    font-size: 0.7em; /* Ajusta el tamaño del texto según sea necesario */
+  } 
+
 /* Estilos personalizados */
 
 /* Agregar animación de deslizamiento */

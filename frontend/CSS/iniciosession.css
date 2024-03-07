@@ -1,9 +1,20 @@
 body {
-    background-color: #16c9c9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece la altura mínima del cuerpo al 100% de la altura de la ventana */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
 }
 
-.container {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+.content {
+    flex: 1;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #343a40; /* Cambia esto según tu preferencia */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto; /* Coloca el footer al final del contenedor flex */
+    width: 100%;
 }

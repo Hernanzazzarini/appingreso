@@ -70,6 +70,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h3 class="text-center mb-4">APP INGRESO/EGRESO</h3>
+                        <box-icon type='solid' name='bell-ring'></box-icon>
+                        <span class="small-text">Recuerde realizar el Ingreso y Egreso diario.</span>
                         <button class="btn btn-success btn-block" onclick="ingreso()">Ingreso</button>
                         <button class="btn btn-danger btn-block" onclick="egreso()">Egreso</button>
                     </div>
@@ -78,37 +80,34 @@
         </div>
     </div>
 
-    <!-- Nuevo contenedor más pequeño para el carrusel -->
-    <div class="container mt-4" style="max-width: 800px;">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="frontend/IMAGE/imagen 1.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-block d-md-block">
-                        <h5>VESTIMENTA</h5>
-                        <p>Recuerde ingresar con Ropa de calle</p>
-                    </div>
-                </div>
-                
-                <div class="carousel-item">
-                    <img src="frontend/IMAGE/descarga.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-block d-md-block">
-                        <h5>VESTIMENTA</h5>
-                        <p>Realice el cambio posterior al ingreso.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Controles del carrusel -->
-            <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Siguiente</span>
-            </a>
+    <div class="card-group">
+        <div class="card">
+          <img src="frontend/IMAGE/imagen 1.jpg" class="card-img-top rotate-card" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Recomendaciones Bpm</h5>
+            <box-icon name='check'></box-icon>
+            <p class="card-text">No ingresar con Vestimenta de calle a áreas productivas.</p>
+            <p class="card-text">Lavado frecuente de manos con agua y jabón.</p>
+            <p class="card-text">Evitar el uso de joyas y mantener uñas cortas y limpias.</p>
+          </div>
         </div>
-    </div>
+        <div class="card">
+          <img src="frontend/IMAGE/guardia.jpg" class="card-img-top rotate-card" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Registrarse en guardia</h5>
+            <box-icon name='check'></box-icon>
+            <p class="card-text">Realice el ingreso siempre por sector guardia.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="frontend/IMAGE/descarga.jpg" class="card-img-top rotate-card" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ropa de protección</h5>
+            <box-icon name='check'></box-icon>
+            <p class="card-text">Utilice la vestimenta suministrada por la empresa, SOLO DENTRO DEL PREDIO.</p>
+          </div>
+        </div>
+      </div>
 
     <!-- footer -->    
     <footer class="bg-dark text-light text-center py-3">
@@ -120,6 +119,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="frontend/JS/index.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
  
 </body>
 </html>
