@@ -21,33 +21,6 @@ footer {
 }
 
 
-/* Estilos para el carrusel y sus elementos */
-.carousel {
-    position: relative;
-}
-
-.carousel-caption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 20px;
-    text-align: center;
-    background: none; /* Elimina el fondo */
-    color: #2b0505; /* Color del texto */
-}
-
-/* Ajustes para el tamaño del texto */
-.carousel h5 {
-    margin-bottom: 5px;
-    font-size: 24px; /* Ajusta el tamaño según sea necesario */
-}
-
-.carousel p {
-    margin: 0;
-    font-size: 18px; /* Ajusta el tamaño según sea necesario */
-}
-
 .rotate-card:hover {
     transform: rotate(360deg);
     transition: transform 0.5s ease-in-out;
@@ -65,19 +38,6 @@ footer {
     font-size: 0.7em; /* Ajusta el tamaño del texto según sea necesario */
   } 
 
-/* Estilos personalizados */
-
-/* Agregar animación de deslizamiento */
-@keyframes slideIn {
-    0% {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
 /* Aplicar animación a la fecha y hora */
 #fecha-hora {
