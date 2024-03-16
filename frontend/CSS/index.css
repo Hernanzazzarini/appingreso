@@ -11,9 +11,6 @@ body {
     margin-bottom: 20px; /* Ajusta el valor según el espacio que desees entre el carrusel y el footer */
 }
 
-footer {
-    margin-top: auto;
-}
 
 
 .card {
@@ -44,22 +41,52 @@ footer {
     animation: fadeIn 1s ease-out;
 }
 
+/* Estilos personalizados para ajustar el tamaño del mapa incrustado */
+.map-container {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* Proporción de aspecto 16:9 para el contenedor */
+    position: relative;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer {
+    background-color: #333; /* Cambiar a cualquier color deseado */
+    color: white; /* Cambiar el color del texto si es necesario para que contraste adecuadamente */
+    padding: 20px 0; /* Ajustar el espacio alrededor del contenido dentro del footer */
+}
+
+/* Estilos personalizados para el footer */
+.contact-info p {
+    font-size: 18px; /* Tamaño de fuente deseado */
+}
+/* Estilos personalizados para el footer */
+.contact-info h3 {
+    margin-bottom: 25px; /* Ajusta el margen inferior para separar la etiqueta h3 del resto de los datos */
+}
+/* Estilos personalizados para el footer */
+.contact-info p {
+    margin-bottom: 30px; /* Agregar margen inferior entre los elementos */
+}
 
 
+/* Ajuste de las columnas en dispositivos móviles */
+@media (max-width: 576px) {
+    .footer .row {
+        flex-direction: column;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .footer .col-md-6 {
+        width: 100%;
+    }
+}
 
 
 /* Agrega estilos específicos para resoluciones móviles */
@@ -75,8 +102,6 @@ footer {
     }
 }
 
-/* Estilos generales que aplican en todas las resoluciones */
-/* ... (otros estilos) */
 
 
 
